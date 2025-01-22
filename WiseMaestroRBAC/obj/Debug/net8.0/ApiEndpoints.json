@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "WiseMaestroRBAC.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WiseMaestroRBAC.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WiseMaestroRBAC.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/Authentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WiseMaestroRBAC.Models.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WiseMaestroRBAC.Controllers.ResourceController",
+    "Method": "AdminUpdate",
+    "RelativePath": "api/Resource/admin-update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WiseMaestroRBAC.Controllers.ResourceController",
+    "Method": "EditorAction",
+    "RelativePath": "api/Resource/editor-action",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WiseMaestroRBAC.Controllers.ResourceController",
+    "Method": "SuperAdminDelete",
+    "RelativePath": "api/Resource/super-admin-delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WiseMaestroRBAC.Controllers.ResourceController",
+    "Method": "GetViewerContent",
+    "RelativePath": "api/Resource/viewer-content",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
